@@ -1,0 +1,32 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+#pantalla{
+    width: 100vw;
+    height: 100vh;
+    cursor: crosshair;
+    position: relative;
+}
+
+#contador{
+    background-color: tomato;
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+#objetivo{
+    background-image: url(img/descarga.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    border-radius: 50%;
+    transition: 0.1s;
+}
